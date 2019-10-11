@@ -114,7 +114,9 @@ robocopy /E "%userprofile%\node-pem-backup3\db_backup" "%GOPATH%\src\github.com\
 
 :: *All nodes restored (node, node2, node3)
 
-:: *now run them nodes individually ( open terminal, do the commands from the two lines below, or let other .bat scripts to do this for you)
+:: *now run them nodes individually 
+::(open terminal, do the commands from the two lines below, or let other .bat scripts to do this for you)
+::(or let the start call functions do it, forget about other .bat scripts)
 :: cd %GOPATH%\src\github.com\ElrondNetwork\elrond-go\cmd\node
 :: node.exe --rest-api-port 8081 
 
