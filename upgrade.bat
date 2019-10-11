@@ -1,5 +1,7 @@
 :: Node Upgrade Script 
 
+:: Turn off all cmd's, all nodes, leave only one cmd, then run this script.
+
 @echo off
 if not exist "%userprofile%\node-pem-backup" mkdir "%userprofile%\node-pem-backup"
 if not exist "%userprofile%\node-pem-backup\db_backup" mkdir "%userprofile%\node-pem-backup\db_backup"
